@@ -589,6 +589,8 @@ app.delete('/api/v1/classrooms/:id', (req: Request, res: Response) => {
 });
 
 
+/**Pordi kuulamine */
+
 app.listen(PORT, () => {
     console.log('Server is running');
 });
